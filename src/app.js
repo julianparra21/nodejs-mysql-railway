@@ -23,7 +23,7 @@ res.json(result[0])
 
 
 app.get('/create',async(req,res)=>{
-   const result= await pool.query(`INSERT into users(name) VALUES("Julian")`)
+   const result= await pool.query(`INSERT into users(name) VALUES("Parra")`)
 
    res.json(result)
 })
